@@ -257,7 +257,7 @@ if __name__ == '__main__':
     #ETL
     #Extraction
     path = 'data/kc_house_data.csv'
-    url = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
+    url = 'http://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_land.geojson'
 
     data = get_data(path)
     geofile = get_geofile(url)
